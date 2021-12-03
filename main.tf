@@ -4,5 +4,5 @@ resource "random_pet" "name" {
 
 resource "google_compute_network" "vpc_network" {
   name = random_pet.name.id
-  description = "random vpc for testing"
+  description = "random vpc for testing - 1"
 }
